@@ -54,6 +54,7 @@ if __name__ == "__main__":
             EVALAI_HOST_URL,
             CHALLENGE_CREATE_OR_UPDATE_URL.format(CHALLENGE_HOST_TEAM_PK),
         )
+    print(url)
 
     headers = get_request_header(HOST_AUTH_TOKEN)
 
