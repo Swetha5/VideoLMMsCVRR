@@ -1,6 +1,6 @@
 # If you are not sure what all these fields mean, please refer our documentation here:
 # https://evalai.readthedocs.io/en/latest/configuration.html
-title: V3Det Challenge 2024 - Vast Vocabulary Visual Detection
+title: VideoLLMs
 short_description: Join the V3Det Challenge 2024 - Vast Vocabulary Visual Detection, and push the boundaries of object detection! Explore the rich diversity and endless possibilities of the V3Det dataset.
 description: templates/description.html
 evaluation_details: templates/evaluation_details.html
@@ -11,8 +11,8 @@ leaderboard_description: Explore the frontiers of object detection in the V3Det 
 evaluation_script: evaluation_script.zip
 remote_evaluation: True
 is_docker_based: False
-start_date: 2024-04-3 07:00:00
-end_date: 2024-06-19 6:59:59
+start_date: 2025-02-3 07:00:00
+end_date: 2025-06-19 6:59:59
 published: True
 
 leaderboard:
