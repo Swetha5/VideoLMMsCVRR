@@ -7,7 +7,7 @@ evaluation_details: templates/evaluation_details.html
 terms_and_conditions: templates/terms_and_conditions.html
 image: cvrr_logo.png
 submission_guidelines: templates/submission_guidelines.html
-leaderboard_description: Explore the frontiers of object detection in the V3Det Challenge 2024. Witness innovation and precision as global contenders navigate through a vast vocabulary of visual categories.
+leaderboard_description: Explore the frontiers of video understanding in the CVRR Challenge 2025.
 evaluation_script: evaluation_script.zip
 remote_evaluation: True
 is_docker_based: False

@@ -1,113 +1,107 @@
-<h3>V3Det: Vast Vocabulary Visual Detection Dataset</h3>
-<p>😊<a href="https://v3det.openxlab.org.cn/">Dataset</a>|💻<a href="https://github.com/V3Det">Github</a>|📖<a href="https://arxiv.org/pdf/2304.03752.pdf">Paper</a>|📄<a href="https://arxiv.org/abs/2304.03752">arXiv</a></p>
-
-<div id="countdown">
-        <p style="font-family: 'Arial', sans-serif; color: cornflowerblue; display: inline-block; margin: 0;">
-          Countdown to Development Phase:
-        </p>
-        <div id="timer" style="display: inline-block;"></div>
-</div>
-
-<div id="countdown1">
-        <p style="font-family: 'Arial', sans-serif; color: cornflowerblue; display: inline-block; margin: 0;">
-          Countdown to Technical Report Submission:
-        </p>
-        <div id="timer1" style="display: inline-block;"></div>
-</div>
-
-<script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("Jun 13, 2024 14:59:59").getTime();
-
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-            // Get today's date and time
-            var now = new Date().getTime();
-            
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-            
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-            // Output the result in an element with id="timer"
-            document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-            
-            // If the count down is over, write some text 
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("timer").innerHTML = "EXPIRED";
-            }
-        }, 1000);
-</script>
-
-<script>
-        // Set the date we're counting down to
-        var countDownDate1 = new Date("Jun 19, 2024 14:59:59").getTime();
-
-        // Update the count down every 1 second
-        var x1 = setInterval(function() {
-            // Get today's date and time
-            var now1 = new Date().getTime();
-            
-            // Find the distance between now and the count down date
-            var distance1 = countDownDate1 - now1;
-            
-            // Time calculations for days, hours, minutes and seconds
-            var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));
-            var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);
-            
-            // Output the result in an element with id="timer1"
-            document.getElementById("timer1").innerHTML = days1 + "d " + hours1 + "h "
-            + minutes1 + "m " + seconds1 + "s ";
-            
-            // If the count down is over, write some text 
-            if (distance1 < 0) {
-                clearInterval(x1);
-                document.getElementById("timer1").innerHTML = "EXPIRED";
-            }
-        }, 1000);
-</script>
+<h3>Welcome to the CVRR: Complex Video Reasoning & Robustness Evaluation Challenge 2025!</h3>
+<p>😊<a href="https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/EktDA83_8UxJrc23DQfrfv8Bvw41YxWVBgD3Fapxs69rRg?e=1RZIY0">Dataset</a>|💻<a href="https://github.com/mbzuai-oryx/CVRR-Evaluation-Suite/">Github</a>|📖<a href="https://arxiv.org/pdf/2405.03690">Paper</a>|📄<a href="https://arxiv.org/abs/2405.03690">arXiv</a></p>
 
 
-<p>Hosted jointly with The 4th Open World Vision Workshop: <a href="https://vplow.github.io/vplow_4th.html">Visual Perception via Learning in an Open World (VPLOW) at CVPR'24</a></p>
+<!--<div id="countdown">-->
+<!--        <p style="font-family: 'Arial', sans-serif; color: cornflowerblue; display: inline-block; margin: 0;">-->
+<!--          Countdown to Validation Phase:-->
+<!--        </p>-->
+<!--        <div id="timer" style="display: inline-block;"></div>-->
+<!--</div>-->
 
-<h4>Competition Introduction</h4>
-<p>Vast Vocabulary Visual Detection (V3Det) invites visual recognition enthusiasts and experts worldwide to reshape the field of object detection using our revolutionary V3Det dataset. This dataset not only encompasses objects from 13,204 categories, ten times the size of existing large vocabulary object detection datasets, but also emphasizes the hierarchical and interrelated nature of categories, providing an ideal testbed for research in extensive and open vocabulary object detection. The rich annotations of V3Det, meticulously provided by human experts, ensure high precision and in-depth interpretation of the data. By participating in this challenge, you will not only have the opportunity to showcase your technical prowess but also contribute to the future development of the field of object detection.</p>
+<!--<div id="countdown1">-->
+<!--        <p style="font-family: 'Arial', sans-serif; color: cornflowerblue; display: inline-block; margin: 0;">-->
+<!--          Countdown to Test Phase:-->
+<!--        </p>-->
+<!--        <div id="timer1" style="display: inline-block;"></div>-->
+<!--</div>-->
 
-<h4>Important Dates</h4>
-<p> Apr 3. 2024: The test server is open on EvalAI</p>
-<p> Old DDL </p>
-<p> June 3. 2024 at 11:59 PM PDT: Results submission DDL. The test server will be closed after the DDL</p>
-<p> June 9. 2024 at 11:59 PM PDT: Technical report submission DDL</p>
-<p> <strong> New DDL ! </strong></p>
-<p> June 12. 2024 at 11:59 PM PDT: Results submission DDL. The test server will be closed after the DDL</p>
-<p> June 18. 2024 at 11:59 PM PDT: Technical report submission DDL</p>
-<p> Please join the <a href="https://discord.gg/Dnj5JE3p">Discord Group</a> or QQ Group (849660410) if you have any questions.</p>
+<!--<script>-->
+<!--        // Set the date we're counting down to-->
+<!--        var countDownDate = new Date("Jun 13, 2024 14:59:59").getTime();-->
 
-<p> <strong> Notification ! </strong></p>
-<p> If you fail to submit result using the command line, please join our QQ group and send the json file directly to us. Email: 2020302121195@whu.edu.cn</p>
+<!--        // Update the count down every 1 second-->
+<!--        var x = setInterval(function() {-->
+<!--            // Get today's date and time-->
+<!--            var now = new Date().getTime();-->
+<!--            -->
+<!--            // Find the distance between now and the count down date-->
+<!--            var distance = countDownDate - now;-->
+<!--            -->
+<!--            // Time calculations for days, hours, minutes and seconds-->
+<!--            var days = Math.floor(distance / (1000 * 60 * 60 * 24));-->
+<!--            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));-->
+<!--            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));-->
+<!--            var seconds = Math.floor((distance % (1000 * 60)) / 1000);-->
+<!--            -->
+<!--            // Output the result in an element with id="timer"-->
+<!--            document.getElementById("timer").innerHTML = days + "d " + hours + "h "-->
+<!--            + minutes + "m " + seconds + "s ";-->
+<!--            -->
+<!--            // If the count down is over, write some text -->
+<!--            if (distance < 0) {-->
+<!--                clearInterval(x);-->
+<!--                document.getElementById("timer").innerHTML = "EXPIRED";-->
+<!--            }-->
+<!--        }, 1000);-->
+<!--</script>-->
 
-<!-- <h4>Dataset Overview</h4>
-<p>We introduce V3Det, a vast vocabulary visual detection dataset meticulously crafted to advance the field of general visual object detection. This dataset addresses the challenge of detecting arbitrary objects in real-world scenarios, where traditional object detection datasets are often limited by their relatively restricted vocabulary. </p>
+<!--<script>-->
+<!--        // Set the date we're counting down to-->
+<!--        var countDownDate1 = new Date("Jun 19, 2024 14:59:59").getTime();-->
 
-<p>V3Det stands out with its extensive range of features:</p>
+<!--        // Update the count down every 1 second-->
+<!--        var x1 = setInterval(function() {-->
+<!--            // Get today's date and time-->
+<!--            var now1 = new Date().getTime();-->
+<!--            -->
+<!--            // Find the distance between now and the count down date-->
+<!--            var distance1 = countDownDate1 - now1;-->
+<!--            -->
+<!--            // Time calculations for days, hours, minutes and seconds-->
+<!--            var days1 = Math.floor(distance1 / (1000 * 60 * 60 * 24));-->
+<!--            var hours1 = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));-->
+<!--            var minutes1 = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));-->
+<!--            var seconds1 = Math.floor((distance1 % (1000 * 60)) / 1000);-->
+<!--            -->
+<!--            // Output the result in an element with id="timer1"-->
+<!--            document.getElementById("timer1").innerHTML = days1 + "d " + hours1 + "h "-->
+<!--            + minutes1 + "m " + seconds1 + "s ";-->
+<!--            -->
+<!--            // If the count down is over, write some text -->
+<!--            if (distance1 < 0) {-->
+<!--                clearInterval(x1);-->
+<!--                document.getElementById("timer1").innerHTML = "EXPIRED";-->
+<!--            }-->
+<!--        }, 1000);-->
+<!--</script>-->
 
-<p><strong>Vast Vocabulary:</strong> It encompasses bounding boxes for objects across 13,204 categories in real-world images. This scale is ten times larger than any existing large vocabulary object detection dataset, like LVIS, setting a new benchmark in dataset size and diversity.</p>
 
-<p><strong>Hierarchical Category Organization:</strong> The categories in V3Det are thoughtfully arranged in a hierarchical category tree. This structure not only delineates the inclusion relationships among different categories but also fosters an exploration into the complex interconnections and relationships within vast and open vocabulary object detection scenarios.</p>
+<!--<p>Hosted jointly with The 1st Workshop on <a href="https://www.crcv.ucf.edu/cvpr2025-vidllms-workshop">Video Large Language Models at CVPR'25</a></p>-->
 
-<p><strong>Rich Annotations:</strong> The dataset includes 243k images, each precisely annotated with bounding boxes to ensure accurate object identification and localization. Furthermore, V3Det offers professional descriptions for each category, crafted by human experts. This level of detail aids significantly in the interpretation and understanding of the dataset.</p>
+<h4>Task</h4>
+<p>Complex Video Reasoning and Robustness Evaluation Suite (CVRR-ES) is a comprehensive benchmark designed  to assess the reasoning and robustness capabilities of Video Large Language Models (Video-LLMs) in real-world scenarios. Unlike existing video benchmarks that focus primarily on simple video comprehension, CVRR-ES evaluates models on their ability to handle intricate reasoning tasks and robustly respond to diverse user prompts across a range of realworld contexts. The benchmark comprises 11 diverse real-world video category dimensions, including multiple actions in a single video, fine-grained action understanding, partial actions, time order understanding, non-existent actions with existent scene depictions, non-existent actions with non-existent scene depictions, continuity and object instance count, unusual and physically anomalous activities, interpretation of social context, understanding of emotional context, and interpretation of visual context. </p>
 
-<p>V3Det is more than just a dataset; it’s an exploration space that allows for comprehensive benchmarks in both vast and open vocabulary object detection. It’s poised to yield new observations, practices, and insights, thereby contributing to future research in the field. With its expansive scope and detailed annotations, V3Det is uniquely positioned to be a cornerstone dataset for the development of more generalized visual perception systems.</p>
- -->
+<h4>Dataset</h4>
+Overall, validation split consists of 2400 open-ended question-answer (QA) pairs spanning 214 unique videos. The average video duration is 22.3 seconds, with maximum and minimum durations of 183 and 2 seconds, respectively.
 
-<p><strong>For more detailed challenge information, please refer to <a href="https://v3det.openxlab.org.cn/challenge">Competition Homepage</a>.</strong></p>
+<h4>Challenge Phases</h4>
+<ol type="1">
+    <li>Validation Phase: Participants submit their model predictions on the validation dataset. Participants can choose to make submissions public or private during this phase and the number of submissions will not be limited.</li>
+    <li>Test Phase: Participants submit their model predictions on the test dataset. The final evaluation and ranking will be based on the performance on this split. The top-performing models will be awarded. Submissions are limited in this phase.</li>
+</ol>
+
+<h4>Competition Rules</h4>
+<ol type="1">
+  <li>Submissions must be public in the test phase to be considered for the prize.</li>
+  <li>Participants need to submit a technical report (PDF file).</li>
+  <li>There must be no explicit human labelling on the test videos.</li>
+  <li>Test and validation data must not be used for any kind of training (supervised or self-supervised). Any other dataset can be used for training, fine-tuning, or prompting.</li>
+  <li>There are no restrictions on the model side; any model is eligible for prizes.</li>
+</ol>
+
+
+
+<p><strong>For more detailed challenge information, please refer to <a href="https://www.crcv.ucf.edu/cvpr2025-vidllms-workshop">Competition Homepage</a>.</strong></p>
 
 
