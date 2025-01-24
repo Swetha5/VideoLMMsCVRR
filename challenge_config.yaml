@@ -1,11 +1,11 @@
 # If you are not sure what all these fields mean, please refer our documentation here:
 # https://evalai.readthedocs.io/en/latest/configuration.html
 title: VideoLLMs
-short_description: Join the V3Det Challenge 2024 - Vast Vocabulary Visual Detection, and push the boundaries of object detection! Explore the rich diversity and endless possibilities of the V3Det dataset.
+short_description: Join the VidLLMs Challenge 2025 - Complex Video Reasoning & Robustness Evaluation (CVRR), and push the boundaries of video understanding!
 description: templates/description.html
 evaluation_details: templates/evaluation_details.html
 terms_and_conditions: templates/terms_and_conditions.html
-image: V3Det.png
+image: cvrr_logo.png
 submission_guidelines: templates/submission_guidelines.html
 leaderboard_description: Explore the frontiers of object detection in the V3Det Challenge 2024. Witness innovation and precision as global contenders navigate through a vast vocabulary of visual categories.
 evaluation_script: evaluation_script.zip
