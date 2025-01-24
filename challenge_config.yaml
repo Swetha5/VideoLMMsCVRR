@@ -148,18 +148,18 @@ challenge_phases:
     is_partial_submission_evaluation_enabled: False
     allowed_submission_file_types: ".json, .zip, .txt, .tsv, .gz, .csv, .h5, .npy, .npz"
   - id: 2
-    name: Technical Report Submission Phase
+    name: Test Phase
     description: templates/challenge_phase_2_description.html
     leaderboard_public: True
     is_public: True
     is_submission_public: True
-    start_date: 2024-6-4 7:00:00
-    end_date: 2024-06-19 6:59:59
+    start_date: 2025-06-01 7:00:00
+    end_date: 2025-06-30 11:59:59
     test_annotation_file: annotations/test_annotations_testsplit.json
     codename: test
-    max_submissions_per_day: 2
-    max_submissions_per_month: 5
-    max_submissions: 10
+    max_submissions_per_day: 5
+    max_submissions_per_month: 150
+    max_submissions: 150
     default_submission_meta_attributes:
       - name: method_name
         is_visible: True
