@@ -108,7 +108,7 @@ challenge_phases:
     leaderboard_public: True
     is_public: True
     is_submission_public: True
-    start_date: 2025-02-28 07:00:00
+    start_date: 2025-02-3 06:00:00
     end_date: 2025-06-30 11:59:59
     test_annotation_file: annotations/v3det_2023_v1_val.json
     codename: dev
@@ -153,7 +153,7 @@ challenge_phases:
     leaderboard_public: True
     is_public: True
     is_submission_public: True
-    start_date: 2025-06-01 7:00:00
+    start_date: 2025-04-01 6:00:00
     end_date: 2025-06-30 11:59:59
     test_annotation_file: annotations/test_annotations_testsplit.json
     codename: test
